@@ -41,9 +41,12 @@ Tento projekt implementuje riadenie jasu LED diód pomocou modulácie šírky im
 
 ![PWM bloková schéma](top_level_blokove_schema.png)
 
-### Simucalia komponentov 
+### Simucalia pwm  
 
+Simulacia pwm.vhdl súboru. 
 
 
 ### Zdroje 
+
+
 
