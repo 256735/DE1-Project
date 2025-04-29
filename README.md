@@ -44,7 +44,7 @@ Tento projekt implementuje riadenie jasu LED diód pomocou modulácie šírky im
 ### Simucalia komponentov 
 \
 ![Simulace pwm](Sim_1.png)\
-
+\
 Simulace pwm.vhdl súboru -> na obrázku môžeme vydieť ako funguje pwm signál, postupné rozširovanie, dosiahnutie maxima v 64 a následné zužovanie.
 
 ### Reference
