@@ -42,8 +42,17 @@ Tento projekt implementuje riadenie jasu LED diód pomocou modulácie šírky im
 ![PWM bloková schéma](top_level_blokove_schema.png)
 
 ### Simucalia komponentov 
+\
+![Simulace pwm](Sim_1.png)\
 
+Simulace pwm.vhdl súboru -> na obrázku môžeme vydieť ako funguje pwm signál, postupné rozširovanie, dosiahnutie maxima v 64 a následné zužovanie.
 
+### Reference
+- [Teória PWM - Wikipedia](https://en.wikipedia.org/wiki/Pulse-width_modulation)
+- [Fungovanie a písanie kódu PWM](https://vhdlwhiz.com/pwm-controller/)
+- [Fungovanie a písanie kódu v md (syntax) pre readyME](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Generovanie TB súboru](https://vhdl.lapinoo.net/)
+- [Ai na kontrolu kódu](https://chatgpt.com/)
+- [Constrainový súbor](https://raw.githubusercontent.com/Digilent/digilent-xdc/master/Nexys-A7-50T-Master.xdc)
 
-### Zdroje 
 
