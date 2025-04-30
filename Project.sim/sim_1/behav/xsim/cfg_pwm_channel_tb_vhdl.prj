@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../Project.srcs/sources_1/new/pwm_channel.vhd" \
-"../../../../Project.srcs/sim_1/new/pwm_channel_tb.vhd" \
-
-# Do not sort compile order
-nosort
