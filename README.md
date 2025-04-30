@@ -12,7 +12,7 @@ Sára Wozárová zodpovedná za pomoc pri programovaní, pomoc pri vytváraní r
 
 ## Teoretický úvod a Princip PWM modulace
 
-Náš tím navrhol a vytvoril porgram v jazyku VHDL. Tento program má za úlohu úpravu jasu RGB LED diod na doske Nexys-A7 50T. Toto upravovanie jasu bude prediehať na princípe PWM (Pulse Width Modulation). PWM je spôsob riadenia výkonu pomocou rýchleho zapínania a vypínania signálu. Výsledný priemerný výkon sa mení podľa šírky impulzu (tzv. duty cycle), čo znamená, že čím dlhšie je signál v stave „zapnuté“, tým väčší výkon sa prenáša – teda impulz je širší. Ďalej sú na doske využité tlačidlá na ovplyvnovanie programu. Uživatel  bude vedieť ovplyvniť maximálnu velkosť jasu a farbu, keďže LED diody fungujú na RGB princípe (tri malé svetlá -red-green-blue- ktoré robia biele svetlo). 
+Náš tím navrhol a vytvoril program v jazyku VHDL. Tento program má za úlohu úpravu jasu RGB LED diod na doske Nexys-A7 50T. Toto upravovanie jasu bude prediehať na princípe PWM (Pulse Width Modulation). PWM je spôsob riadenia výkonu pomocou rýchleho zapínania a vypínania signálu. Výsledný priemerný výkon sa mení podľa šírky impulzu (tzv. duty cycle), čo znamená, že čím dlhšie je signál v stave „zapnuté“, tým väčší výkon sa prenáša – teda impulz je širší. Ďalej sú na doske využité tlačidlá na ovplyvnovanie programu. Uživatel bude vedieť ovplyvniť maximálnu velkosť jasu a farbu, keďže LED diody fungujú na RGB princípe (tri malé svetlá -red-green-blue- ktoré robia biele svetlo). 
 
 ## Popis hardwaru a vysvetliene demo verzie 
 
@@ -41,6 +41,7 @@ Tento projekt implementuje riadenie jasu LED diód pomocou modulácie šírky im
 
 ![PWM bloková schéma](top_level_blokove_schema.png)
 
+
 ### Simucalia komponentov 
 \
 ![Simulace pwm](Sim_1.png)\
@@ -54,5 +55,7 @@ Simulace pwm.vhdl súboru -> na obrázku môžeme vydieť ako funguje pwm signá
 - [Generovanie TB súboru](https://vhdl.lapinoo.net/)
 - [Ai na kontrolu kódu](https://chatgpt.com/)
 - [Constrainový súbor](https://raw.githubusercontent.com/Digilent/digilent-xdc/master/Nexys-A7-50T-Master.xdc)
+
+
 
 
