@@ -12,7 +12,7 @@ Sára Wozárová zodpovedná za pomoc pri programovaní, pomoc pri vytváraní r
 
 ## Poster k projektu
 
-[Poster]()
+[Poster](Poster.pdf)
 
 ## Teoretický úvod a Princip PWM modulace
 
