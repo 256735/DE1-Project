@@ -8,7 +8,7 @@ Dominik Hejda zodpovedný za pogramovanie
 
 Matej Galajda zodpovedný za readME file a pomoc pri programovaní
 
-Sára Wozárová zodpovedná za pomoc pri programovaní, pomoc pri vytváraní readME file a vytvorenie TOP LEVEL schémy 
+Sára Wozárová zodpovedná za pomoc pri programovaní, pomoc pri vytváraní readME file a vytvorenie TOP LEVEL schémy a posteru
 
 ## Teoretický úvod a Princip PWM modulace
 
