@@ -10,6 +10,10 @@ Matej Galajda zodpovedný za readME file a pomoc pri programovaní
 
 Sára Wozárová zodpovedná za pomoc pri programovaní, pomoc pri vytváraní readME file a vytvorenie TOP LEVEL schémy a posteru
 
+## Poster k projektu
+
+[Poster]()
+
 ## Teoretický úvod a Princip PWM modulace
 
 Náš tím navrhol a vytvoril program v jazyku VHDL. Tento program má za úlohu úpravu jasu RGB LED diod na doske Nexys-A7 50T. Toto upravovanie jasu bude prediehať na princípe PWM (Pulse Width Modulation). PWM je spôsob riadenia výkonu pomocou rýchleho zapínania a vypínania signálu. Výsledný priemerný výkon sa mení podľa šírky impulzu (tzv. duty cycle), čo znamená, že čím dlhšie je signál v stave „zapnuté“, tým väčší výkon sa prenáša – teda impulz je širší. Ďalej sú na doske využité tlačidlá na ovplyvnovanie programu. Uživatel bude vedieť ovplyvniť maximálnu velkosť jasu a farbu, keďže LED diody fungujú na RGB princípe (tri malé svetlá -red-green-blue- ktoré robia biele svetlo). 
